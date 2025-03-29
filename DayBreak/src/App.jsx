@@ -1,9 +1,12 @@
-import HeadFromAustin from './Header.jsx' 
+/*import HeadFromAustin from './Header.jsx' 
 import PecJobFromaustin from './MainPage.jsx'
 import FootJobFromAustin from './Footer.jsx'
 import About from './Card.jsx'
 import Button from './button/button.jsx'
-
+*/
+import Furniture from './Furniture'
+import Student from './student.jsx'
+import conditionalRendering from './conditionalRendering.jsx'
 /*Three different methods to style react components with CSS:
   1. External, so we edit the button in the index.css file
 
@@ -23,9 +26,8 @@ Better for components with minimal styling
 function App() {
   return (
     <>  
-      <HeadFromAustin></HeadFromAustin>
-      <About></About>
-      <Button></Button>
+      <conditionalRendering isLoggedIn={true} userName="Austin's feet"></conditionalRendering>
+
     </>
   ); /*Must enclose these components with a fragment <> </>
   This is because return only returns 1 thing.

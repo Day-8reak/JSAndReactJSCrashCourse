@@ -7,6 +7,23 @@
   display: inline-block;
 }
 
+.welcome-message{
+  font-size: 6.9em;
+  background-color: hsl(120, 100%, 42%);
+  color: white;
+  padding: 10px;
+  border-radius
+}
+
+.student{
+  border: 10px solid hsl(0, 0%, 85%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
 .card .card-image{
   max-width: 60%;
   height: auto;

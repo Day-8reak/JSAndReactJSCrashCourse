@@ -4,7 +4,7 @@ import profilePic from './assets/Spam.jpg'
 // Run the website from different directories 
 function Card(){
     return(
-        <div className="card">
+        <div className="card"> 
             <img className="card-image" alt="profile picture" src={profilePic} height="100" width={100}></img>
             <h2>Windja</h2>
             <p className='card-text'>I study computer science</p>
