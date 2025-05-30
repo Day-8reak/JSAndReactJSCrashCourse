@@ -1,0 +1,9 @@
+/* This is a comment, 
+css style sheet is in charge of overall appearance
+of webpage:
+fonts, colours, positions, etc */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
